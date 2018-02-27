@@ -1,0 +1,90 @@
+/* main.css */
+
+body {
+  background: #E6474A;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header {
+  background: #52364A;
+  height: 100px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #E6474A;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  margin-left: 40px;
+  color: #E6474A;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #2B2F49;
+  font-size: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.text {
+  color: #2B2F49;
+  font-size: 48px;
+}
+
+
+
+
+
+
+/* naglowka */
+
+.new-header {
+  background: black;
+}
+
+.square {
+  background: #ECEDEF;
+  width: 40px;
+  height: 40px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side p {
+  color: white;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.rectangle {
+  width: 40px;
+  height: 25px;
+  background: #ECEDEF;
+  margin: 0 20px;
+}
